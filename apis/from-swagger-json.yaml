@@ -18,4 +18,4 @@ spec:
   lifecycle: production
   owner: gold-team
   definition:
-    $json: from-swagger-json-openapi.json
+    $text: from-swagger-json-openapi.json
