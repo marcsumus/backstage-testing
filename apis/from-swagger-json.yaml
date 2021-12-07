@@ -18,4 +18,4 @@ spec:
   lifecycle: production
   owner: gold-team
   definition:
-    $text: fedex-service-api-openapi.json
+    $text: from-swagger-json-openapi.json
