@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: testing-relationships
+  description: Hackathon testing of different component types
+spec:
+  type: url
+  targets:
+    - ./components/fedex-service-api.yaml
+    - ./apis/hello-world-api.yaml
+    - ./apis/fedex-service-api.yaml
+    - ./apis/testing-from-file.yaml

@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fedex-service-api
+  description: Interface to the FedEx Web Service used to create shipping labels
+  title: FedEx Service API
+  tags:
+    - java
+  links:
+    - url: https://www.fedex.com/en-us/developer/web-services.html
+      title: FedEx Web Services Developer Portal
+      icon: local_shipping
+    - url: https://qa-apis.us-west-2.aws.parchment.com/fedex-service-api/swagger-ui/
+      title: Swagger QA
+spec:
+  type: openapi
+  system: delivery
+  lifecycle: production
+  owner: green-team
+  providesApis:
+    - fedex-service-api
