@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: infrastructure
-  description: The infra business unit
+  name: gold-team
+  description: The Gold Team - responsible for Infrastructure
 spec:
   type: team
   profile:
