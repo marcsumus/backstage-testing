@@ -8,5 +8,5 @@ spec:
   targets:
     - ./components/fedex-service-api.yaml
     - ./apis/local-definition.yaml
-    - ./apis/fedex-service-api.yaml
+#    - ./apis/fedex-service-api.yaml
     - ./apis/from-web-yaml.yaml
