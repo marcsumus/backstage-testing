@@ -9,5 +9,5 @@ spec:
     displayName: Application Engineering
 #    picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg
   children: [gold-team]
-  owner: from-web-yaml
+  owner: fedex-service-api
   members: [marcsumus, dugshnay, CodeMichelle, dtracy27, tccarruth]
