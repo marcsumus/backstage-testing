@@ -14,7 +14,7 @@ metadata:
     - url: https://qa-apis.us-west-2.aws.parchment.com/fedex-service-api/swagger-ui/
       title: Swagger QA
 spec:
-  type: openapi
+  type: service
   system: delivery
   lifecycle: production
   owner: green-team
