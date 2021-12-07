@@ -12,11 +12,12 @@ metadata:
       icon: local_shipping
     - url: https://qa-apis.us-west-2.aws.parchment.com/fedex-service-api/swagger-ui/
       title: Swagger QA
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'parchment.app=fedex-service-api'
 spec:
   type: openapi
   system: delivery
   lifecycle: production
   owner: gold-team
   definition:
-#    $text: from-swagger-json-openapi.json
     $text: https://qa-apis.us-west-2.aws.parchment.com/fedex-service-api/v3/api-docs?group=app-v1
