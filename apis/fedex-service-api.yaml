@@ -17,5 +17,5 @@ spec:
   system: delivery
   lifecycle: production
   owner: gold-team
-  description:
+  definition:
     $json: fedex-service-api-openapi.json
