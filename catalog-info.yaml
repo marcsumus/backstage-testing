@@ -11,4 +11,5 @@ spec:
     - ./apis/from-swagger-json.yaml
     - ./apis/from-web-yaml.yaml
     - ./groups/gold-team.yaml
+    - ./groups/application-engineering.yaml
     - ./users/marcsumus.yaml

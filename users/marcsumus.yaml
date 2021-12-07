@@ -6,5 +6,5 @@ spec:
   profile:
     displayName: Mark Bonges
     email: mark.bonges@parchment.com
-#    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+    picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/Avengers-Captain-America-icon.jpg
   memberOf: [gold-team]
