@@ -20,3 +20,5 @@ spec:
   owner: green-team
   providesApis:
     - fedex-service-api
+    - local-definition
+    - from-web-yaml
