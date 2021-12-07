@@ -7,6 +7,6 @@ spec:
   type: url
   targets:
     - ./components/fedex-service-api.yaml
-    - ./apis/hello-world-api.yaml
+    - ./apis/local-definition.yaml
     - ./apis/fedex-service-api.yaml
-    - ./apis/testing-from-file.yaml
+    - ./apis/from-web-yaml.yaml
