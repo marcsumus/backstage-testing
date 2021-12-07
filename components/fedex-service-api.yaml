@@ -13,6 +13,8 @@ metadata:
       icon: local_shipping
     - url: https://qa-apis.us-west-2.aws.parchment.com/fedex-service-api/swagger-ui/
       title: Swagger QA
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'parchment.app=fedex-service-api'
 spec:
   type: service
   system: delivery
