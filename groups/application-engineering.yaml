@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: application-engineering
+  description: Application Engineering Department
+spec:
+  type: root
+  profile:
+    displayName: Application Engineering
+#    picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg
+  children: [gold-team]
+  members: [marcsumus, dugshnay, CodeMichelle, dtracy27, tccarruth]
