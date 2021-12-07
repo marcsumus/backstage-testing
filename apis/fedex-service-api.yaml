@@ -18,4 +18,4 @@ spec:
   lifecycle: production
   owner: gold-team
   description:
-    $json: http://qa-apis.us-west-2.aws.parchment.com/fedex-service-api/v3/api-docs?group=app-v1
+    $json: fedex-service-api-openapi.json
