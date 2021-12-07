@@ -10,4 +10,4 @@ spec:
     picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg
   parent: application-engineering
   children: []
-  members: [marcsumus, dugshnay, CodeMichelle, dtracy27, tccarruth]
+  members: [marcsumus]
