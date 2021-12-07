@@ -10,4 +10,55 @@ spec:
     picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg
   parent: application-engineering
   children: []
-  members: [marcsumus]
+  members: [marcsumus, dugshnay, CodeMichelle, dtracy27, tccarruth]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: dugshnay
+spec:
+  profile:
+    displayName: Doug Schnee
+#    email: mark.bonges@parchment.com
+  memberOf: [gold-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: CodeMichelle
+spec:
+  profile:
+    displayName: Michelle Taylor
+#    email: mark.bonges@parchment.com
+  memberOf: [gold-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: dtracy27
+spec:
+  profile:
+    displayName: Dan Tracy
+#    email: mark.bonges@parchment.com
+  memberOf: [gold-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: tccarruth
+spec:
+  profile:
+    displayName: Thomas Carruth
+#    email: mark.bonges@parchment.com
+  memberOf: [gold-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: marcsumus
+spec:
+  profile:
+    displayName: Mark Bonges
+    email: mark.bonges@parchment.com
+  memberOf: [gold-team]
+

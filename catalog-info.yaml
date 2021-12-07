@@ -12,4 +12,3 @@ spec:
     - ./apis/from-web-yaml.yaml
     - ./groups/gold-team.yaml
     - ./groups/application-engineering.yaml
-    - ./users/marcsumus.yaml
