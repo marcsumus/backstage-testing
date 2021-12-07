@@ -11,4 +11,5 @@ spec:
     slack: https://parchment.slack.com/archives/CD5MPQL20
     picture: https://memegenerator.net/img/instances/75824101.jpg
   parent: application-engineering
+  children: []
   members: [marcsumus, dugshnay, CodeMichelle, dtracy27, tccarruth]
