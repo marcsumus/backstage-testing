@@ -19,7 +19,7 @@ spec:
   type: service
   system: delivery
   lifecycle: production
-  owner: green-team
+  owner: gold-team
   providesApis:
     - from-swagger-json
     - local-definition
