@@ -8,6 +8,5 @@ spec:
   profile:
     displayName: Application Engineering
 #    picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg
-  children: [gold-team]
-  owner: fedex-service-api
-  members: [marcsumus, dugshnay, CodeMichelle, dtracy27, tccarruth]
+  children: [gold-team, blue-team, orange-team, green-team, red-team, purple-team, team-13, rainbow-team, lego-team, transformers-team]
+  members: []
