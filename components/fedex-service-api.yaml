@@ -19,6 +19,6 @@ spec:
   lifecycle: production
   owner: green-team
   providesApis:
-    - fedex-service-api
+    - from-swagger-json
     - local-definition
     - from-web-yaml
