@@ -25,6 +25,24 @@ spec:
     - resource:external-kong
 ---
 apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: learner-service-api
+  description: API for Learner Service
+  tags:
+    - java
+  links:
+    - url: https://qa-apis.us-west-2.aws.parchment.com/learner-service-api/swagger-ui/
+      title: Swagger QA
+spec:
+  type: openapi
+  system: value-stream-infrastructure
+  lifecycle: production
+  owner: gold-team
+  definition:
+    $text: https://qa-apis.us-west-2.aws.parchment.com/learner-service-api/v3/api-docs?group=app-v1
+---
+apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: external-kong
