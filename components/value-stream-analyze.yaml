@@ -11,6 +11,7 @@ metadata:
       title: Github
   annotations:
     github.com/project-slug: parchment-io/analytics-ui
+    backstage.io/source-location: url:https://github.com/parchment-io/analytics-ui
 spec:
   type: website
   system: value-stream-analyze
