@@ -1,0 +1,86 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: analytics-ui
+  description: Helps institutions create the highests probability of enrollment success
+  title: Analytics UI
+  tags:
+    - react
+  links:
+    - url: https://github.com/parchment-io/analytics-ui
+      title: Github
+spec:
+  type: website
+  system: value-stream-analyze
+  lifecycle: production
+  owner: gold-team
+  consumesApis:
+    - analytics-engine-api
+    - learner-service-api
+    - parchment-identity-provider
+    - member-directory-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: analytics-engine-api
+  description: Backend for Analytics UI
+  title: Analytics Engine API
+  tags:
+    - java
+  links:
+    - url: https://github.com/parchment-io/analytics-engine-api
+      title: Github
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'parchment.app=analytics-engine-api'
+spec:
+  type: service
+  system: value-stream-analyze
+  lifecycle: production
+  owner: gold-team
+  providesApis:
+    - analytics-engine-api
+  dependsOn:
+    - resource:analyze-db
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: analytics-engine-api
+  description: API for Analytics Engine
+  tags:
+    - java
+  links:
+    - url: https://qa-apis.us-west-2.aws.parchment.com/analytics-engine-api/swagger-ui/
+      title: Swagger QA
+spec:
+  type: openapi
+  system: value-stream-analyze
+  lifecycle: production
+  owner: gold-team
+  definition:
+    $text: https://qa-apis.us-west-2.aws.parchment.com/analytics-engine-api/v3/api-docs?group=app-v1
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: analyze-db
+  description: Primary Database for Analyze
+  tags:
+    - PostgreSQL
+spec:
+  type: database
+  owner: gold-team
+  system: value-stream-analyze
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: analyze-neo4j
+  description: A graph database management system
+  tags:
+    - java
+spec:
+  type: database
+  owner: gold-team
+  system: value-stream-analyze

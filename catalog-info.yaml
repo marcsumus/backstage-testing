@@ -10,6 +10,7 @@ spec:
     - ./apis/local-definition.yaml
     - ./apis/from-swagger-json.yaml
     - ./apis/from-web-yaml.yaml
-    - ./domains/award-transcript-services.yaml
+#    - ./domains/award-transcript-services.yaml   Domains do not load for some reason
     - ./systems/value-streams.yaml
     - ./groups/engineering-team.yaml
+    - ./components/value-stream-analyze.yaml
