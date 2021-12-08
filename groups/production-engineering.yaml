@@ -18,7 +18,7 @@ spec:
   spec:
     profile:
       displayName: Scott Galloway
-    #    email: mark.bonges@parchment.com
+        email: scott.galloway@parchment.com
     memberOf: [ production-engineering ]
 ---
 apiVersion: backstage.io/v1alpha1
