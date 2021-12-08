@@ -67,7 +67,7 @@ metadata:
   name: analyze-db
   description: Primary Database for Analyze
   tags:
-    - PostgreSQL
+    - postgresql
 spec:
   type: database
   owner: gold-team
