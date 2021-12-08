@@ -40,7 +40,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'parchment.app=analytics-engine-api'
     github.com/project-slug: parchment-io/analytics-engine-api
-    backstage.io/techdocs-ref: 'url:https://github.com/backstage/backstage/blob/master/mkdocs.yml'
+    backstage.io/techdocs-ref: 'url:https://github.com/backstage/backstage/tree/master'
 spec:
   type: service
   system: value-stream-analyze
