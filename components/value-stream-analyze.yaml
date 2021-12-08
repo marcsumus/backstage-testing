@@ -9,6 +9,8 @@ metadata:
   links:
     - url: https://github.com/parchment-io/analytics-ui
       title: Github
+  annotations:
+    github.com/project-slug: parchment-io/analytics-ui
 spec:
   type: website
   system: value-stream-analyze
@@ -35,6 +37,7 @@ metadata:
       title: Github
   annotations:
     'backstage.io/kubernetes-label-selector': 'parchment.app=analytics-engine-api'
+    github.com/project-slug: parchment-io/analytics-engine-api
 spec:
   type: service
   system: value-stream-analyze
