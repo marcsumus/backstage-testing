@@ -6,8 +6,8 @@ metadata:
 spec:
   type: url
   targets:
-    - ./groups/production-engineering.yaml
-    - ./groups/application-engineering.yaml
+    - ./production-engineering.yaml
+    - ./application-engineering.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -19,5 +19,5 @@ spec:
   profile:
     displayName: Engineering
   #    picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg
-  children: [applicaiton-engineering, production-engineering]
+  children: [application-engineering, production-engineering]
   members: []
