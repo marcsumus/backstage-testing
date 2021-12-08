@@ -35,6 +35,8 @@ metadata:
   links:
     - url: https://github.com/parchment-io/analytics-engine-api
       title: Github
+    - url: https://structurizr.com/workspace/69193/diagrams#analyze
+      title: Structurizr
   annotations:
     'backstage.io/kubernetes-label-selector': 'parchment.app=analytics-engine-api'
     github.com/project-slug: parchment-io/analytics-engine-api
@@ -61,11 +63,11 @@ metadata:
       title: Swagger QA
 spec:
   type: openapi
-  system: value-stream-analyze
   lifecycle: production
   owner: gold-team
   definition:
-    $text: https://qa-apis.us-west-2.aws.parchment.com/analytics-engine-api/v1/api-docs?group=app-v1
+    $text: https://qa-apis.us-west-2.aws.parchment.com/fedex-service-api/v3/api-docs?group=app-v1
+# todo fix when url works again    $text: https://qa-apis.us-west-2.aws.parchment.com/analytics-engine-api/v1/api-docs?group=app-v1
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
