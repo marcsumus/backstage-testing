@@ -19,6 +19,8 @@ spec:
     - learner-service-api
     - parchment-identity-provider
     - member-directory-api
+  dependsOn:
+    - component:analytics-engine-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -42,6 +44,7 @@ spec:
     - analytics-engine-api
   dependsOn:
     - resource:analyze-db
+    - resource:analyze-neo4j
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
