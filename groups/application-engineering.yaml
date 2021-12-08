@@ -6,7 +6,7 @@ metadata:
 spec:
   type: url
   targets:
-    - ./groups/gold-team.yaml
+    - ./gold-team.yaml
 #    - todo add configs for each team
 ---
 apiVersion: backstage.io/v1alpha1
