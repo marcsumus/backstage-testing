@@ -1,0 +1,42 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: production-engineering
+  description: Production Engineering Department
+spec:
+  type: team
+  profile:
+    displayName: Production Engineering Department
+#    picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg
+  children: []
+  members: [sgalloway914, tgraskemper, pryorda]
+---
+  apiVersion: backstage.io/v1alpha1
+  kind: User
+  metadata:
+    name: sgalloway914
+  spec:
+    profile:
+      displayName: Scott Galloway
+    #    email: mark.bonges@parchment.com
+    memberOf: [ production-engineering ]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: tgraskemper
+spec:
+  profile:
+    displayName: Thomas Graskemper
+  #    email: mark.bonges@parchment.com
+  memberOf: [ production-engineering ]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pryorda
+spec:
+  profile:
+    displayName: Daniel Pryor
+  #    email: mark.bonges@parchment.com
+  memberOf: [ production-engineering ]

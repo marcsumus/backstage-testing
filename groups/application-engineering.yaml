@@ -1,10 +1,21 @@
 apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: location-application-engineering
+  description: Location of all configs for the Application Engineering Teams
+spec:
+  type: url
+  targets:
+    - ./groups/gold-team.yaml
+#    - todo add configs for each team
+---
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: application-engineering
   description: Application Engineering Department
 spec:
-  type: root
+  type: business-unit
   profile:
     displayName: Application Engineering
 #    picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg

@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: location-engineering-team
+  description: Location of all configs for Parchment Award Transcript Services
+spec:
+  type: url
+  targets:
+    - ./groups/production-engineering.yaml
+    - ./groups/application-engineering.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineering-team
+  description: Engineering Department
+spec:
+  type: root
+  profile:
+    displayName: Engineering
+  #    picture: https://github.com/marcsumus/backstage-testing/tree/main/groups/images/gold-team.jpg
+  children: [applicaiton-engineering, production-engineering]
+  members: []

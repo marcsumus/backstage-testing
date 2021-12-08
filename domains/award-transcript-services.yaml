@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: location-award-transcript-services
+  description: Location of all configs for Parchment Award Transcript Services
+spec:
+  type: url
+  targets:
+    - ./systems/value-streams.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: award-transcript-services
+  description: 'Parchment Award Transcript Services'
+spec:
+  owner: engineering
+

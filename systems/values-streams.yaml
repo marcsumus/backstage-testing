@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: value-stream-authentication
+  description: Services for authenticating users
+spec:
+  owner: engineering-team
+  domain: award-transcript-services
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: value-stream-ordering
+  description: Services for accepting orders
+spec:
+  owner: engineering-team
+  domain: award-transcript-services
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: value-stream-analyze
+  description: Services for Analyze for Transcript Services
+spec:
+  owner: engineering-team
+  domain: award-transcript-services
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: value-stream-delivery
+  description: Services for deliverying credentials
+spec:
+  owner: engineering-team
+  domain: award-transcript-services
