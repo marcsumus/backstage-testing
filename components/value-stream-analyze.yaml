@@ -51,7 +51,7 @@ metadata:
   tags:
     - java
   links:
-    - url: https://qa-apis.us-west-2.aws.parchment.com/analytics-engine-api/swagger-ui/
+    - url: https://qa-apis.us-west-2.aws.parchment.com/analytics-engine-api/v1/
       title: Swagger QA
 spec:
   type: openapi
@@ -59,7 +59,7 @@ spec:
   lifecycle: production
   owner: gold-team
   definition:
-    $text: https://qa-apis.us-west-2.aws.parchment.com/analytics-engine-api/v3/api-docs?group=app-v1
+    $text: https://qa-apis.us-west-2.aws.parchment.com/analytics-engine-api/v1/api-docs?group=app-v1
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
