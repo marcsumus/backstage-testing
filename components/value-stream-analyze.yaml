@@ -71,7 +71,7 @@ metadata:
 spec:
   type: database
   owner: gold-team
-  system: value-stream-analyze
+#  system: value-stream-analyze
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -83,4 +83,4 @@ metadata:
 spec:
   type: database
   owner: gold-team
-  system: value-stream-analyze
+#  system: value-stream-analyze
