@@ -14,7 +14,7 @@ metadata:
       title: Swagger QA
 spec:
   type: openapi
-  system: delivery
+  system: value-stream-delivery
   lifecycle: production
   owner: gold-team
   definition:

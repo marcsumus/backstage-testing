@@ -17,7 +17,7 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'parchment.app=fedex-service-api'
 spec:
   type: service
-  system: delivery
+  system: value-stream-delivery
   lifecycle: production
   owner: gold-team
   providesApis:
