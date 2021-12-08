@@ -139,3 +139,15 @@ spec:
     - learner-service-api
   dependsOn:
     - resource:external-kong
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: external-kong
+  description: API Authentication System
+  tags:
+    - kong
+spec:
+  type: service
+  owner: gold-team
+  system: value-stream-analyze
