@@ -33,3 +33,12 @@ metadata:
 spec:
   owner: engineering-team
   domain: award-transcript-services
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: value-stream-infrastructure
+  description: Infrastructure Services
+spec:
+  owner: engineering-team
+  domain: award-transcript-services

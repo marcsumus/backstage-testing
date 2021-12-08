@@ -1,0 +1,37 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: learner-service
+  description: Learner Service
+  title: Learner Service
+  tags:
+    - java
+  links:
+    - url: https://github.com/parchment-io/learner-service-api
+      title: Github
+    - url: https://structurizr.com/workspace/69193/diagrams#Learner-Service-API
+      title: Structurizr
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'parchment.app=learner-service-api'
+    github.com/project-slug: parchment-io/learner-service-api
+spec:
+  type: service
+  system: value-stream-infrastructure
+  lifecycle: production
+  owner: gold-team
+  providesApis:
+    - learner-service-api
+  dependsOn:
+    - resource:external-kong
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: external-kong
+  description: API Authentication System
+  tags:
+    - kong
+spec:
+  type: service
+  owner: gold-team
+  system: value-stream-infrastructure

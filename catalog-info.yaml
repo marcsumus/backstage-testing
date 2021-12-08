@@ -14,3 +14,4 @@ spec:
     - ./systems/value-streams.yaml
     - ./groups/engineering-team.yaml
     - ./components/value-stream-analyze.yaml
+    - ./components/value-stream-infrastructure.yaml
